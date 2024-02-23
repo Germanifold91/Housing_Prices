@@ -2,3 +2,7 @@
 melb_housing@csv:
   type: pandas.CSVDataSet
   filepath: data/01_raw/melb_data.csv
+
+melb_housing_clean@csv:
+  type: pandas.CSVDataSet
+  filepath: data/02_primary/melb_data_clean.csv
